@@ -1,6 +1,6 @@
 # Minimum Repro Demonstration of libs assets
 
-This demonstrates the fact that Nest silently ignores assets properties specified in libraries that are included in a final app's binary.
+This demonstrates the fact that Nest silently ignores assets properties specified in libraries, even if that library's code is included in a final app's binary.
 
 This is a mostly unmodified result of `nest new`. To get here I:
 
